@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+    .parent1 {
+    width: 100%;
+    text-align: center; /* center the heading and content */
+    color: white;
+}
+.parent1 form {
+    display: inline-block;       /* block-level to make it stack */
+    width: 30%;         /* fixed width for consistency */
+    margin: 20px auto;    /* center the form and add space between forms */
+    text-align: left;     /* align form labels/inputs to the left */
+}
+
+.parent2 {
+    width: 100%;
+    text-align: center; /* center the heading and content */
+    color: white;
+}
+.parent2 form {
+    display: inline-block;       /* block-level to make it stack */
+    width: 30%;         /* fixed width for consistency */
+    margin: 20px auto;    /* center the form and add space between forms */
+    text-align: left;     /* align form labels/inputs to the left */
+}
+body{
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 15px;
+    align-items: center;
+    padding-left: 200px;
+    padding-top:50px;
+}
+#heading{
+    text-decoration: dashed;
+    border: 1px solid black;
+    text-align: center;
+    font-family:cursive;
+    color: white;
+    background-color: khaki;
+
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+#button{
+    background-color: bisque;
+    color: brown;
+    text-align: center;
+    margin:0 40%;
+    font-size: 27px;
+    font-family: serif;
+    border-radius:10px;
+    padding: 0 50px;
+    display: block;
+    width: 200px;
+    height: 30px;
+    margin-top: 30px;
+
+}
+#button:hover{
+         color: black;
+         opacity:0.6;
+}
+.main{
+    width: 68%;
+    height: auto;
+    padding:3% 5%;
+    background-image:url(solid\ form\ image.jpg);
+}
+
+
+
+</style>
+<body>
+    <div class="main">
+    <h1 id="heading">Registration</h1>
+    <div class="parent1">
+    <h2 id="pd">Personal Details</h2>
+    
+        <form>
+            <label for="fname">Full name</label>
+            <br>
+            <input type="text" name="fname" placeholder="Enter your name">
+            <br>
+            <label for="mobile number">Mobile number</label>
+            <br>
+            <input type="number" name="mobile number" placeholder="Enter mobile number">
+            <br>
+         </form>
+    
+    
+        <form>
+            <label for="date">Date of Birth</label>
+            <br>
+            <input type="number" name="date" placeholder="Enter birth date">
+            <br>
+            <label for="gender">Gender</label>
+            <br>
+            <input type="text" name="gender" placeholder="Enter gender">
+            <br>
+        </form>
+     
+     
+            <form>
+                <label for="email">Email</label>
+                <br>
+                <input type="text" name="email" placeholder="Enter email type">
+                <br>
+                <label for="occupation">Occupation</label>
+                <br>
+                <input type="text" name="occupation" placeholder="Enter occupation">
+            </form>
+     
+    </div>
+
+<div class="parent2">
+        <h2>Identity Details</h3>
+        <form>
+            <label for="id">ID Type</label>
+            <br>
+            <input type="text" name="id" placeholder="Enter id type">
+            <br>
+            <label for="date">Issue Date</label>
+            <br>
+            <input type="number" name="date" placeholder="Enter ID Issue Date">
+            <br>
+         </form>
+
+        <form>
+            <label for="number">ID Number</label>
+            <br>
+            <input type="number" name="number" placeholder="Enter id number">
+            <br>
+            <label for="state">Issue State</label>
+            <br>
+            <input type="text" name="state" placeholder="Enter ID issue state">
+            <br>
+        </form>
+    
+            <form>
+                <label for="issue">Issue Authority</label>
+                <br>
+                <input type="text" name="issue" placeholder="Enter issue department">
+                <br>
+                <label for="date">Expiry Date</label>
+                <br>
+                <input type="text" name="occupation" placeholder="Enter occupation">
+            </form>
+     </div>
+     <input id="button" type="button" value="next">
+     </div>
+</div>
+</body>
+</html>

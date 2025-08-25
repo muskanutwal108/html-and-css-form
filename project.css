@@ -1,0 +1,11 @@
+.parent1{
+    width:100%;
+    margin: 0px auto 50px;
+    text-align: center;
+}
+.parent1 form{
+    display: inline-block;
+    text-align: left;
+    width: 30%;
+    margin: 0px 50px;
+}
